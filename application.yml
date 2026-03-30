@@ -1,2 +1,7 @@
 
 # parent yml file for all the services
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
