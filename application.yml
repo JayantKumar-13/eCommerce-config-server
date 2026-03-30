@@ -1,5 +1,6 @@
 
-# parent yml file for all the services
+# parent yml file for all the services , all these properties will be pulled first by all the microservices.
+eureka.client.service-url.defaultZone=http://localhost:8761/eureka
 management:
   endpoints:
     web:
